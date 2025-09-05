@@ -21,21 +21,18 @@ namespace Hastane_Projesi
         {
             FrmHastaGiris frH = new FrmHastaGiris();
             frH.Show();
-            this.Hide();
         }
 
         private void btnDoktorGirisi_Click(object sender, EventArgs e)
         {
             FrmDoktorGiris frD=new FrmDoktorGiris();
             frD.Show();
-            this.Hide();
         }
 
         private void btnSekreterGirisi_Click(object sender, EventArgs e)
         {
             FrmSekreterGiris frS=new FrmSekreterGiris();
             frS.Show();
-            this.Hide();
         }
     }
 }
